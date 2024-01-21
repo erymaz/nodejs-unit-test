@@ -1,0 +1,12 @@
+{
+  "preset": "ts-jest",
+  "globalSetup": "./test/utils/globalSetup.ts",
+  "globalTeardown": "./test/utils/globalTeardown.ts",
+  "setupFilesAfterEnv": [
+    "./test/utils/setupFile.ts"
+  ],
+  "testEnvironment": "node",
+  "coveragePathIgnorePatterns": [
+    "/node_modules/"
+  ]
+}
